@@ -96,7 +96,7 @@ we can create our `Zend\Authentication\Adapter\DbTable\CallbackCheck` adapter
 instance, passing the options to the constructor or later via setter methods:
 
 ```php
-use Zend\Authentication\Adapter\DbTable\CallbackCheck as AuthAdapter;
+use Zend\Authentication\Adapter\DbTable\CallbackCheckAdapter as AuthAdapter;
 
 // Configure the instance with constructor parameters:
 $authAdapter = new AuthAdapter(
